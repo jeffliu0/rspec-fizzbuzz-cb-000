@@ -16,6 +16,9 @@ describe "fizzbuzz" do
 
     expect(fizz_15).to eq("FizzBuzz")
   end
+  if 'returns "Doormamu" when number is divisible by 3 & 5 & 10' do
+    expect(fizzbuzz(30).to eq("Doormamu"))
+  end
   it 'returns nil when the number is not divisible by 3 or 5' do
     fizz_4 = fizzbuzz(4)
 
